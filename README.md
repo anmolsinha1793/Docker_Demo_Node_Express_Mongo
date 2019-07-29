@@ -4,8 +4,6 @@ A tutorial and complete sample project for Front-End developers showing how to g
 
 ## Quickstart
 
-[Visit the tutorial online](https://closebrace.com/tutorials/2017-03-02/the-dead-simple-step-by-step-guide-for-front-end-developers-to-getting-up-and-running-with-nodejs-express-and-mongodb). The rest of the project is provided just to show the functioning finished results. The tutorial will show you how to build all of this stuff, from downloading Node all the way to the end.
-
 If you want to run this example code, you will need to do an NPM Install, as the node_modules directory has been removed from this repository. You'll also need to set up a MongoDB database. I highly recommend just going through the tutorial!
 
 
@@ -37,3 +35,6 @@ If you want to run this example code, you will need to do an NPM Install, as the
       - ./data:/data/db 
       in the docker-compose.yml file in the mongo service section
 
+## Info to run container from image
+
+* replace build: . with image: anmolsinha1793/node_express_mongo_demo:initial in the docker-compose.yml file in the app service section
